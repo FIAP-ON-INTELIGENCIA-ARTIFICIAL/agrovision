@@ -42,12 +42,15 @@ O escopo também inclui:
 
 <table>
   <tr>
-    <td align="center">
+    <td width="110" align="center" valign="top">
       <a href="https://github.com/SabrinaOtoni">
-        <img src="https://github.com/SabrinaOtoni.png" width="90" alt="SabrinaOtoni" style="border-radius:50%" />
-        <br/><sub><b>Sabrina Otoni</b></sub><br/>
-        <sub>@SabrinaOtoni</sub>
+        <img src="https://github.com/SabrinaOtoni.png" width="100" height="100" alt="Avatar de Sabrina Otoni" style="border-radius:50%; object-fit:cover;" />
       </a>
+    </td>
+    <td valign="middle">
+      <strong style="font-size:1.05rem;">Sabrina Otoni</strong><br/>
+      <a href="https://github.com/SabrinaOtoni">@SabrinaOtoni</a><br/>
+      <img alt="Tutor" src="https://img.shields.io/badge/role-Tutor-4C1?style=flat-square" />
     </td>
   </tr>
 </table>
@@ -58,13 +61,17 @@ O escopo também inclui:
 
 <table>
   <tr>
-    <td align="center">
+    <td width="110" align="center" valign="top">
       <a href="https://github.com/henriquehsilva">
-        <img src="https://github.com/henriquehsilva.png" width="90" alt="henriquehsilva" style="border-radius:50%" />
-        <br/><sub><b>Henrique Silva</b></sub><br/>
-        <sub>@henriquehsilva</sub>
+        <img src="https://github.com/henriquehsilva.png" width="100" height="100" alt="Avatar de Henrique Silva" style="border-radius:50%; object-fit:cover;" />
       </a>
+    </td>
+    <td valign="middle">
+      <strong style="font-size:1.05rem;">Henrique Silva</strong><br/>
+      <a href="https://github.com/henriquehsilva">@henriquehsilva</a><br/>
+      <img alt="Papel" src="https://img.shields.io/badge/papel-Desenvolvedor-36a2eb?style=flat-square" />
     </td>
   </tr>
 </table>
+
 
