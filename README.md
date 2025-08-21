@@ -38,7 +38,7 @@ O escopo também inclui:
 
 ---
 
-## 🧑‍🏫 Tutor
+## 👥 Time
 
 <table>
   <tr>
@@ -53,13 +53,6 @@ O escopo também inclui:
       <img alt="Tutor" src="https://img.shields.io/badge/role-Tutor-4C1?style=flat-square" />
     </td>
   </tr>
-</table>
-
----
-
-## 👥 Time
-
-<table>
   <tr>
     <td width="110" align="center" valign="top">
       <a href="https://github.com/henriquehsilva">
