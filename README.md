@@ -1,4 +1,4 @@
-# 🌾 Projeto Artemis - Aplicação para Apoio ao Agronegócio
+# 🌾 Projeto AgroVision - Aplicação para Apoio ao Agronegócio
 
 ## 📌 Resumo do Projeto
 O projeto tem como objetivo desenvolver **uma aplicação em Python** para auxiliar agricultores no **cálculo de áreas de plantio, aplicação de insumos e previsão de produção agrícola**.  
