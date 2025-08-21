@@ -43,10 +43,10 @@ O escopo também inclui:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/USERNAME_TUTOR">
-        <img src="https://github.com/USERNAME_TUTOR.png" width="90" alt="USERNAME_TUTOR" style="border-radius:50%" />
-        <br/><sub><b>Nome do Tutor</b></sub><br/>
-        <sub>@USERNAME_TUTOR</sub>
+      <a href="https://github.com/SabrinaOtoni">
+        <img src="https://github.com/SabrinaOtoni.png" width="90" alt="SabrinaOtoni" style="border-radius:50%" />
+        <br/><sub><b>Sabrina Otoni</b></sub><br/>
+        <sub>@SabrinaOtoni</sub>
       </a>
     </td>
   </tr>
