@@ -11,6 +11,15 @@ O escopo também inclui:
 
 ---
 
+## 🎥 Apresentação do Seu Jorge do Agro
+
+Conheça o Seu Jorge, agricultor do interior de Goiás e cliente representativo do Projeto AgroVision.  
+Neste vídeo, ele compartilha sua experiência no campo e como a tecnologia pode transformar a produção agrícola.
+
+[![Apresentação do Seu Jorge do Agro](https://img.youtube.com/vi/cSJFwvnrj1w/hqdefault.jpg)](https://www.youtube.com/watch?v=cSJFwvnrj1w)
+
+---
+
 ## ⚙️ Principais Dependências Técnicas
 
 ### **Python**
