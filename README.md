@@ -52,8 +52,6 @@ O escopo também inclui:
       <a href="https://github.com/SabrinaOtoni">@SabrinaOtoni</a><br/>
       <img alt="Tutor" src="https://img.shields.io/badge/role-Tutor-4C1?style=flat-square" />
     </td>
-  </tr>
-  <tr>
     <td width="110" align="center" valign="top">
       <a href="https://github.com/henriquehsilva">
         <img src="https://github.com/henriquehsilva.png" width="100" height="100" alt="Avatar de Henrique Silva" style="border-radius:50%; object-fit:cover;" />
