@@ -56,5 +56,15 @@ O escopo também inclui:
 
 ## 👥 Time
 
-[![Contribuidores](https://contrib.rocks/image?repo=ORG/REPO)](https://github.com/ORG/REPO/graphs/contributors)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/henriquehsilva">
+        <img src="https://github.com/henriquehsilva.png" width="90" alt="henriquehsilva" style="border-radius:50%" />
+        <br/><sub><b>Henrique Silva</b></sub><br/>
+        <sub>@henriquehsilva</sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
