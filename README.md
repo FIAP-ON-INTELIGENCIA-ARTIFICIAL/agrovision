@@ -36,6 +36,8 @@ O escopo também inclui:
 - Experiência prática em **colaboração com GitHub**.  
 - Formação crítica em **ética, sustentabilidade e responsabilidade social** no agronegócio.
 
+---
+
 ## 🧑‍🏫 Tutor
 
 <table>
