@@ -34,4 +34,25 @@ O escopo também inclui:
 ## 🌱 Valor Educacional
 - Desenvolvimento de **competências técnicas** (programação, análise de dados, integração de APIs).  
 - Experiência prática em **colaboração com GitHub**.  
-- Formação crítica em **ética, sustentabilidade e responsabilidade social** no agronegócio.  
+- Formação crítica em **ética, sustentabilidade e responsabilidade social** no agronegócio.
+
+## 🧑‍🏫 Tutor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/USERNAME_TUTOR">
+        <img src="https://github.com/USERNAME_TUTOR.png" width="90" alt="USERNAME_TUTOR" style="border-radius:50%" />
+        <br/><sub><b>Nome do Tutor</b></sub><br/>
+        <sub>@USERNAME_TUTOR</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 👥 Time
+
+[![Contribuidores](https://contrib.rocks/image?repo=ORG/REPO)](https://github.com/ORG/REPO/graphs/contributors)
+
