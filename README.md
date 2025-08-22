@@ -20,6 +20,130 @@ Neste vídeo, ele compartilha sua experiência no campo e como a tecnologia pode
 
 ---
 
+## 📂 Estrutura de Pastas
+
+```text
+agrovision/
+├── app.py                     # Backend principal em Flask (API + PWA)
+├── requirements.txt            # Dependências Python
+├── .env.example                # Exemplo de variáveis de ambiente
+├── docker-compose.yml          # Orquestração dos serviços (Flask + R)
+│
+├── docker/                     # Configurações de container
+│   └── web.Dockerfile          # Dockerfile do serviço Flask
+│
+├── r/                          # Serviço de análise em R
+│   ├── plumber.R               # Endpoints estatísticos (Plumber)
+│   └── Dockerfile              # Dockerfile do serviço R
+│
+├── scripts/                    # Scripts auxiliares
+│   ├── etl.py                  # Pipeline simples de ETL
+│   └── train.py                # Script de treino (modelo ML)
+│
+├── data/                       # Dados de exemplo
+│   └── solo.csv                # Arquivo CSV inicial
+│
+├── web/                        # Frontend PWA
+│   ├── index.html              # Página principal
+│   ├── app.js                  # Lógica da interface
+│   ├── styles.css              # Estilos da aplicação
+│   ├── manifest.webmanifest    # Configuração PWA
+│   └── service-worker.js       # Suporte offline
+│
+├── notebooks/                  # (Opcional) Notebooks de análise
+│   └── demo.ipynb              # Exploração/EDA ou treino de modelo
+│
+├── docs/                       # Documentação acadêmica
+│   ├── arquitetura.md          # Arquitetura do sistema
+│   ├── clima.md                # Notas sobre dados meteorológicos
+│   └── etica_impacto.md        # Reflexão ética, social e ambiental
+│
+└── .github/                    # Integração contínua (CI/CD)
+    └── workflows/
+        └── ci.yml              # Pipeline de testes no GitHub Actions
+
+```
+
+## Descrição das Pastas e Arquivos
+
+- **app.py**  
+  Arquivo principal do backend em Flask. Expõe as APIs de cálculo de área, insumos, previsão e clima, além de servir o PWA.
+
+- **requirements.txt**  
+  Lista de dependências Python necessárias para rodar o projeto.
+
+- **.env.example**  
+  Exemplo de configuração de variáveis de ambiente (pode ser copiado para `.env`).
+
+- **docker-compose.yml**  
+  Arquivo para orquestração dos containers (Flask + R).
+
+---
+
+### 📂 docker/
+- **web.Dockerfile**  
+  Dockerfile do serviço Flask (backend + PWA).
+
+---
+
+### r/
+- **plumber.R**  
+  API estatística desenvolvida em R (Plumber).
+- **Dockerfile**  
+  Dockerfile do serviço R.
+
+---
+
+### scripts/
+- **etl.py**  
+  Script de ETL simples para preparar dados de solo.  
+- **train.py**  
+  Script de treino para criação de modelo de machine learning (opcional).
+
+---
+
+### data/
+- **solo.csv**  
+  Arquivo de dados de exemplo com informações de solo.
+
+---
+
+### web/
+- **index.html**  
+  Página principal da aplicação (PWA).  
+- **app.js**  
+  Lógica da interface e integração com a API Flask.  
+- **styles.css**  
+  Estilos da interface.  
+- **manifest.webmanifest**  
+  Configuração do PWA (instalável no celular).  
+- **service-worker.js**  
+  Implementação de cache/offline-first para PWA.
+
+---
+
+### notebooks/
+- **demo.ipynb**  
+  Notebook opcional para exploração de dados (EDA) e análises adicionais.
+
+---
+
+### docs/
+- **arquitetura.md**  
+  Descrição da arquitetura da aplicação.  
+- **clima.md**  
+  Explicação sobre integração com dados meteorológicos.  
+- **etica_impacto.md**  
+  Reflexão crítica sobre impactos sociais, éticos e ambientais.
+
+---
+
+### .github/workflows/
+- **ci.yml**  
+  Pipeline de integração contínua (CI) para rodar testes no GitHub Actions.
+
+---
+
 ## ⚙️ Principais Dependências Técnicas
 
 ### **Python**
