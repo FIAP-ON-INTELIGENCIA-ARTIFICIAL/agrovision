@@ -87,13 +87,8 @@ agrovision/
 
 ---
 
-<<<<<<< Updated upstream
-### 📂 docker/
-- **web.Dockerfile**
-=======
 ### docker/
 - **web.Dockerfile**  
->>>>>>> Stashed changes
   Dockerfile do serviço Flask (backend + PWA).
 
 ---
@@ -204,7 +199,7 @@ agrovision/
     <td valign="middle">
       <strong style="font-size:1.05rem;">Sabrina Otoni</strong><br/>
       <a href="https://github.com/SabrinaOtoni">@SabrinaOtoni</a><br/>
-      <img alt="Tutor" src="https://img.shields.io/badge/role-Tutor-4C1?style=flat-square" />
+      <img alt="Papel: Tutor" src="https://img.shields.io/badge/papel-Tutor-2ea44f?style=flat-square" />
     </td>
     <td width="110" align="center" valign="top">
       <a href="https://github.com/henriquehsilva">
@@ -216,7 +211,7 @@ agrovision/
       <a href="https://github.com/henriquehsilva">@henriquehsilva</a><br/>
       <img alt="Papel" src="https://img.shields.io/badge/papel-Desenvolvedor-36a2eb?style=flat-square" />
     </td>
-        <td width="110" align="center" valign="top">
+    <td width="110" align="center" valign="top">
       <a href="https://chatgpt.com/codex">
         <img src="./members/codex.png" width="100" height="100" alt="Avatar de Codex GPT" style="border-radius:50%; object-fit:cover;" />
       </a>
@@ -225,6 +220,18 @@ agrovision/
       <strong style="font-size:1.05rem;">Codex GPT</strong><br/>
       <a href="https://chatgpt.com/codex">@codex</a><br/>
       <img alt="Papel" src="https://img.shields.io/badge/papel-Desenvolvedor-36a2eb?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="110" align="center" valign="top">
+      <a href="https://sora.chatgpt.com/">
+        <img src="./members/sora.png" width="100" height="100" alt="Avatar de Sora GPT" style="border-radius:50%; object-fit:cover;" />
+      </a>
+    </td>
+    <td valign="middle">
+      <strong style="font-size:1.05rem;">Sora GPT</strong><br/>
+      <a href="https://sora.chatgpt.com/">@sora</a><br/>
+      <img alt="Papel: Designer" src="https://img.shields.io/badge/papel-Designer-f59e0b?style=flat-square" />
     </td>
   </tr>
 </table>
