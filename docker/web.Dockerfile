@@ -10,9 +10,11 @@ COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt && pip install --no-cache-dir gunicorn
 
 COPY app.py /app/
+COPY api /app/api
 COPY web /app/web
 COPY data /app/data
-COPY scripts /app/scripts
+COPY etl /app/etl
+COPY analysis /app/analysis
 
 ENV USE_R=false R_URL=http://r-analytics:8000
 EXPOSE 5000

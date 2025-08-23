@@ -24,7 +24,9 @@ Neste vídeo, ele compartilha sua experiência no campo e como a tecnologia pode
 
 ```text
 agrovision/
-├── app.py                     # Backend principal em Flask (API + PWA)
+├── app.py                     # Ponto de entrada do backend Flask
+├── api/                       # Código da API em Flask
+│   └── main.py                # Implementação das rotas
 ├── requirements.txt            # Dependências Python
 ├── .env.example                # Exemplo de variáveis de ambiente
 ├── docker-compose.yml          # Orquestração dos serviços (Flask + R)
@@ -36,8 +38,10 @@ agrovision/
 │   ├── plumber.R               # Endpoints estatísticos (Plumber)
 │   └── Dockerfile              # Dockerfile do serviço R
 │
-├── scripts/                    # Scripts auxiliares
-│   ├── etl.py                  # Pipeline simples de ETL
+├── etl/                        # Pipelines de dados em Python
+│   └── pipeline.py             # Pipeline simples de ETL
+│
+├── analysis/                   # Scripts de análise e treino
 │   └── train.py                # Script de treino (modelo ML)
 │
 ├── data/                       # Dados de exemplo
@@ -66,10 +70,13 @@ agrovision/
 
 ## Descrição das Pastas e Arquivos
 
-- **app.py**  
-  Arquivo principal do backend em Flask. Expõe as APIs de cálculo de área, insumos, previsão e clima, além de servir o PWA.
+- **app.py**
+  Ponto de entrada que expõe a aplicação Flask definida em `api/main.py`.
 
-- **requirements.txt**  
+- **api/**
+  Código da API em Flask com as rotas do sistema.
+
+- **requirements.txt**
   Lista de dependências Python necessárias para rodar o projeto.
 
 - **.env.example**  
@@ -81,23 +88,32 @@ agrovision/
 ---
 
 ### 📂 docker/
-- **web.Dockerfile**  
+- **web.Dockerfile**
   Dockerfile do serviço Flask (backend + PWA).
 
 ---
 
-### r/
-- **plumber.R**  
-  API estatística desenvolvida em R (Plumber).
-- **Dockerfile**  
-  Dockerfile do serviço R.
+### api/
+- **main.py**
+  Implementação das rotas da aplicação Flask.
 
 ---
 
-### scripts/
-- **etl.py**  
-  Script de ETL simples para preparar dados de solo.  
-- **train.py**  
+### r/
+- **plumber.R**
+  API estatística desenvolvida em R (Plumber).
+- **Dockerfile**
+  Dockerfile do serviço R.
+
+---
+### etl/
+- **pipeline.py**
+  Pipeline de ETL simples para preparar dados de solo.
+
+---
+
+### analysis/
+- **train.py**
   Script de treino para criação de modelo de machine learning (opcional).
 
 ---

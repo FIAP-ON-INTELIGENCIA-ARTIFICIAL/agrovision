@@ -11,6 +11,7 @@ services:
     volumes:
       - ./web:/app/web:ro
       - ./app.py:/app/app.py:ro
+      - ./api:/app/api:ro
       - ./data:/app/data:rw
   r-analytics:
     build:

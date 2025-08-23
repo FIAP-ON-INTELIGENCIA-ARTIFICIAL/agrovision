@@ -1,8 +1,9 @@
 import pandas as pd
 from pathlib import Path
 
-RAW = Path("data/solo.csv")
-OUT = Path("data/solo_features.csv")
+ROOT = Path(__file__).resolve().parents[1]
+RAW = ROOT / "data" / "solo.csv"
+OUT = ROOT / "data" / "solo_features.csv"
 
 def run():
     df = pd.read_csv(RAW)
